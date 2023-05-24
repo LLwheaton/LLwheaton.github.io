@@ -1,5 +1,14 @@
-h1, h2 {
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
     text-align: center;
+}
+
+h1, name {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .topnav {
@@ -31,23 +40,37 @@ h1, h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 7%;
+    width: 8rem;
+    padding-bottom: 20px;
+}
+
+.top-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #e6f2ff;
 }
 
 .middle-container {
+    padding-top: 40px;
+}
+
+
+
+/* .middle-container {
     border: 1px solid black;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
-}
+} */
 
-.info {
+/* .info {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: top;
     text-align: left;
     width: 20%;
-}
+} */
+
 
 .contact {
     width: 10%;
