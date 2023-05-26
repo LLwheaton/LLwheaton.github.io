@@ -54,6 +54,41 @@ h1, name {
     padding-top: 40px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.list-inline-item {
+    background-color: #006699;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.skills-tile {
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    
+}
+
+.skills-text {
+    text-align: center;
+    font-size: 30%;
+}
+
+.skills-header {
+    text-align: center;
+}
+
+.skills-list {
+    text-align: center;
+}
+
+.spark-item {
+    line-height: 18px;
+}
 
 
 /* .middle-container {
