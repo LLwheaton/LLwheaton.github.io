@@ -37,11 +37,14 @@ h1, name {
 
 .profile-img {
     border-radius: 50%;
+    border-color: black;
+    border: solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 8rem;
-    padding-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 .top-container {
@@ -50,7 +53,7 @@ h1, name {
     background-color: #e6f2ff;
 }
 
-.middle-container {
+.about-contact-container {
     padding-top: 40px;
 }
 
@@ -90,21 +93,40 @@ h1, name {
     line-height: 18px;
 }
 
+.skills-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
-/* .middle-container {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-} */
+.experience-container {
+    padding-top: 40px;
+}
 
-/* .info {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: top;
-    text-align: left;
-    width: 20%;
-} */
+.project-image-left {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5%;
+    border: solid black;
+}
+
+.project-image-right {
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 5%;
+    border: solid black;
+}
+
+.middle-container {
+    padding-top: 50px;
+
+}
+
+.project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 .contact {
