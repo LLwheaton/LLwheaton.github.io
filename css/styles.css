@@ -11,6 +11,8 @@ h1, name {
     font-weight: 700;
 }
 
+
+
 .profile-img {
     border-radius: 50%;
     border-color: black;
@@ -109,7 +111,30 @@ h1, name {
     padding-left: 0;
 }
 
+.adjust-footer {
+    width:30%;
+    margin:0 auto;
+}
+
+.footer-hr {
+    width: 50%;
+    margin:0 auto;
+}
+
 
 i {
     font-size: 1.5rem;
+}
+
+.copyright-text, .location {
+    font-size: 12px;
+}
+
+
+.muted {
+    opacity: 0.7;
+}
+
+.no-margin {
+    margin: 5px;
 }
