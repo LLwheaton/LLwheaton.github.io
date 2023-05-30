@@ -35,6 +35,10 @@ h1, name {
     padding-top: 40px;
 }
 
+.about-me {
+    padding-top: 50px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -137,4 +141,42 @@ i {
 
 .no-margin {
     margin: 5px;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-icon {
+    padding-right: 5px;
+}
+
+.contact-link:hover {
+    color: #006699;
+}
+
+.fa-linkedin {
+    padding-right: 6px;
+}
+
+.fa-github-square {
+    padding-right: 6px;
+}
+
+.fa-envelope {
+    padding-right: 4px;
+}
+
+.fa-file-pdf {
+    padding-right: 9px;
+}
+
+.fa-phone {
+    padding-right: 0px;
+}
+
+.phone-number {
+    font-weight: bold;
 }
