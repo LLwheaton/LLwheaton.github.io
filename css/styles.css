@@ -51,6 +51,10 @@ h1, name {
     margin: 5px;
 }
 
+.list-inline-item:hover {
+    background-color: #0e8cca;
+}
+
 .skills-tile {
     padding: 5px;
     height: 60px;
